@@ -10,8 +10,7 @@ body {
           "header"
           "main"
           "footer";
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          font-size: 18px;
+          
     
 }
 
@@ -22,6 +21,8 @@ body {
         margin: 0 auto;
         max-width: 960px;
         width: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
         
 
 }
@@ -110,7 +111,9 @@ main{
     
     width: 100%;
 }
+
 .card{
+    
     padding: 20px;
     border: #E2E8F0;
     border-radius: 5px;
@@ -119,6 +122,7 @@ main{
 
 .testing, .cta{
     display: flex;
+    flex-wrap: wrap;
     background-color: #4A5568;
     margin: 0;
     
@@ -130,20 +134,24 @@ main{
 .testing-desciption{
     float:left;
     color:white;
-    padding-right: 300px;
+    width: 600px;
+    padding-right: 20px;
    
 }
 
 .testing .btn{
-    
+    float: right;
+    text-transform: uppercase;
     text-decoration: none;
     background-color: #48BB78;
     border-radius: 5px;
     color: white;
-   
-    margin-top: 10px;
-   
-
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 15px 32px;
+    
+    
+  
 }
 
 .stories{
@@ -184,13 +192,14 @@ article img{
     color: white;
     padding-left: 200px;
     padding-right: 200px;
-    ;
+    
 }
 
 .newsletter p{
     display: grid;
     justify-content: center;
     color: white;
+    width: 500px;
     padding-left: 230px;
     padding-right: 230px;
 }
@@ -199,14 +208,29 @@ article img{
     display: flex;
     justify-content: center;
     
+   
 }
+input[type=email] {
+    width: 100%;
+    padding: 20px 75px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+  }
 form, .formgroup{
     display: flex;
     flex-wrap: wrap;
+    
+   
 }
 .newsletter .btn{
     background-color: #5A67D8;
     color: white;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: none;  
+    margin-left: 15px;
+    width: 150px;
 }
 footer p{
     color: white;
