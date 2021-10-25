@@ -232,6 +232,13 @@ form, .formgroup{
     margin-left: 15px;
     width: 150px;
 }
+
+.message{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+   
+}
 footer p{
     color: white;
 }
